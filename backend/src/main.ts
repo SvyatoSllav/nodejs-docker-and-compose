@@ -23,7 +23,12 @@ async function bootstrap() {
   //   credentials: true,
   // });
   app.enableCors({
-    origin: true,
+    origin: [
+      'http://svyat-kpd.nomorepartiessbs.ru',
+      'https://svyat-kpd.nomorepartiessbs.ru',
+      'http://localhost:3000',
+      'http://localhost:8081',
+    ],
     credentials: true,
   });
   app.useGlobalPipes(new ValidationPipe());
