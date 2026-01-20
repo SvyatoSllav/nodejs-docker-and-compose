@@ -4,9 +4,9 @@
 
 IP адрес: 158.160.152.230
 
-Frontend: https://svyat-kpd.nomoredomainsmonster.ru
+Frontend: https://svyat-kpd.nomorepartiessbs.ru
 
-Backend: https://api.svyat-kpd.nomoredomainsmonster.ru
+Backend: https://api.svyat-kpd.nomorepartiessbs.ru
 
 ## Описание
 
