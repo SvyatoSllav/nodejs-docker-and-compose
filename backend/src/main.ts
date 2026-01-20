@@ -23,11 +23,7 @@ async function bootstrap() {
   //   credentials: true,
   // });
   app.enableCors({
-    origin: [
-      'http://kupibush.nomorepartiessbs.ru',
-      'https://kupibush.nomorepartiessbs.ru',
-      'http://localhost:8081',
-    ],
+    origin: true,
     credentials: true,
   });
   app.useGlobalPipes(new ValidationPipe());
